@@ -1,0 +1,96 @@
+.caro_center {
+    position: absolute;
+}
+
+.caro_sep_col_height {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.caro_sep {
+    width: 50px;
+    margin: 0;
+}
+
+.caro_button_col {
+    display: flex;
+    justify-content: center;
+}
+
+.caro_button:hover {
+    background-color: white !important;
+    color: black !important;
+    cursor: pointer;
+}
+
+.link_color {
+    color: inherit !important;
+}
+
+.caro_button {
+    border: 2px solid white;
+    border-radius: 0;
+    font-size: 12px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: center;
+    -webkit-transition: background-color 0.1s ease-in;
+    -moz-transition: background-color 0.1s ease-in;
+    -o-transition: background-color 0.1s ease-in;
+    transition: background-color 0.1s ease-in;
+}
+
+.caro_title_text {
+    /* position: absolute; */
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    /* top: */
+}
+
+.caro_subtitle_text {
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    /* top: */
+}
+
+.img_wrapper {
+    object-fit: cover !important;
+    width: 100%;
+    filter: brightness(0.7);
+    height: 530px;
+}
+
+.feat-slide {
+    object-fit: cover;
+    display: table;
+    width: 100%;
+    align-items: center;
+    background-color: #666;
+    color: #999;
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    min-height: 10rem;
+}
+
+.padder {
+    padding: 100px;
+}
+
+.colorer {
+    color: red;
+}

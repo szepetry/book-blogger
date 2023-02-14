@@ -1,0 +1,61 @@
+.common_navbar_item {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.common_navbar_item:hover {
+    padding-left: 8px;
+    padding-right: 8px;
+    
+}
+
+.nav_fontsize {
+    font-size: 13px;
+    line-height: 50px;
+    background-color: black !important;
+    color: white !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    -webkit-transition: background-color 0.1s ease-in;
+    -moz-transition: background-color 0.1s ease-in;
+    -o-transition: background-color 0.1s ease-in;
+    transition: background-color 0.1s ease-in;
+}
+
+.nav_fontsize:hover {
+    background-color: white !important;
+    color: black !important;
+    cursor: pointer;
+}
+
+.link_color {
+    color: inherit !important;
+}
+
+.zero_pad {
+    padding: 0;
+}
+
+.navbar-height {
+    height: 50px !important;
+}
+
+.display_search {
+    display: none;
+}
+
+.repos {
+    align-items: center;
+    display: flex;
+}
+
+.nav_menu_props {
+    background-color: black;
+    float: none;
+    justify-content: end;
+}
+
+.nav_menu_padding {
+    /* // padding-right: 60px; */
+}
